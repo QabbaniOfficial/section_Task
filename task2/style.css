@@ -1,0 +1,410 @@
+*{
+        margin: 0;
+}
+
+#h{
+    height:800px;
+    width: 100%;
+   
+background-image: url(http://www.engage.veented.com/bakery/wp-content/uploads/sites/27/2017/04/drew-coffman-1872.jpg);
+background-size: cover;
+background-position: center center ;
+
+}
+
+#nav{
+    height:100px;
+    width: 100%;
+    position: relative;
+   /* background-color: white; */
+   
+
+}
+#nav img{
+    height:60%;
+    position: absolute;
+    left: 30px;
+    top:25px;
+
+}
+
+#nav ul {
+    position: absolute;
+    right: 80px;
+}
+
+#nav ul li {
+    float: left;
+    margin-left: 30px;
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+#nav ul li a:hover{
+    color: teal;
+}
+#h-text{
+text-align: center;
+color: white;
+}
+#h-text h2{
+    font-weight: lighter;
+    margin-top: 180px;
+}
+#h-text h1 {
+    font-size:80px;
+    font-weight: lighter;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#h-text p{
+    font-size: 24px;
+    color: rgba(255,255,255, .92);
+    font-family: "Alegreya Sans";
+}
+#h-button {
+    margin-top: 50px;
+    margin-left:520px;
+}
+#h-button button{
+    border: 2px solid white;
+    color: white;
+    padding: 15px 28px;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-size: 17px;
+    font-weight: bold;
+    opacity: 1;
+    visibility: visible;
+    font-family: "Alegreya Sans";
+    background-color: transparent;
+}
+#h-button button:hover{
+    background-color:white ;
+    color: black;
+}
+
+
+.section1{
+    height: 700px;
+    width: 100%;
+   
+    position: relative;
+
+}
+.contaner1{
+    height:80%;
+    width: 90%;
+    
+    position: absolute;
+    top:10%;
+    left: 5%;
+}
+.photo1{
+    height: 100;
+    width: 50%;
+    float: left;
+
+}
+.photo1 img{
+    width: 95%;
+}
+.text1{
+height: 100%;
+width: 47%;
+margin-left: 3%;
+float: left;
+
+}
+.text1 h1{
+    margin-top:50px;
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+
+}
+.text1 p{
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    line-height: 1.86em;
+    font-weight: 400;
+    color: #686868;
+    margin-bottom: 20px;
+}
+.list ul li {
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    line-height: 1.86em;
+    font-weight: 400;
+    color: #686868;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    list-style-type:square;
+}
+.section2{
+    height:650px;
+    width: 100%;
+   background-color: #f8f8f8;
+   position: relative;
+}
+
+
+
+.contaner2{
+    height:80%;
+    width: 90%;
+    
+    position: absolute;
+    top:15%;
+    left: 5%;
+}
+.photo2{
+    height: 100;
+    width: 50%;
+    float: left;
+
+}
+.photo2 img{
+    width: 95%;
+    margin-left: 5%;
+}
+.text2{
+height: 100%;
+width:47%;
+margin-right: 3%;
+float: left;
+
+
+}
+.text2 h1{
+    margin-top:100px;
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+
+}
+.text2 p{
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    line-height: 1.5em;
+    font-weight: 400;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.section3{
+    height: 700px;
+    width: 100%;
+
+}
+.contaner3{
+    height: 100%;
+    width: 90%;
+    margin:auto;
+    
+}
+.top{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+}
+.top h1{
+   margin-top: 40px;
+   margin-bottom: 20px;
+   
+   font-size: 30px;
+   font-weight: lighter;
+}
+.top p{
+    font-size: 17px;
+    color: #888;
+    max-width: 720px;
+    margin: 17px auto 0;
+}
+.slid{
+    height: 100%;
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.marg{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.slid img{
+width: 100%;
+}
+.slid h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.slid p{
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    color: rgb(109, 109, 109);
+    line-height: 1.5em;
+}
+
+.section4{
+height: 750px;
+width: 100%;
+background-color:#f8f8f8 ;
+}
+
+.contaner4{
+
+    height:80%;
+    width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.text4{
+    height: 80%;
+    margin-top: 8%;
+    float: left;
+    width: 50%;
+}
+.text4 h3{
+    font-size: 34px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+.text4 p{
+    margin-left: 20px;
+    margin-bottom: 40px;
+    font-size: 17px;
+    color: #686868;
+    font-weight: 400;
+    max-width: 720px;
+    margin: 17px auto 0;
+    font-family: "Alegreya Sans";
+    line-height: 1.86em;
+
+}
+.map{
+    height: 100%;
+width: 50%;
+float:left;
+}
+.map iframe{
+    margin-top: 10%;
+}
+.text4 ul li{
+list-style-type: square;
+margin-left:10px;
+margin-bottom: 20px;
+    max-width: 720px;
+    margin: 17px auto 0;
+    margin-top: 20px;
+    font-size: 17px;
+    color: #686868;
+}
+
+.section5{
+    height: 400px;
+    width: 100%;
+    background-color: #403d38;
+}
+.box{
+    height:85%;
+    margin-top:50px;
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+
+}
+.box h3{
+    color: white;
+    font-weight: lighter;
+
+}
+.box p{
+    margin-top: 30px;
+    color: #969696;
+    font-size: 17px;
+    font-weight: 400;
+    max-width: 720px;
+    margin: 17px auto 0;
+    font-family: "Alegreya Sans";
+    line-height: 1.3em;
+}
+.ul1 li{
+    color: #969696;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-top: 20px;
+    margin-left: -20px;
+list-style-type: none;
+}
+.ul2 li{
+    color: #969696;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-top: 20px;
+list-style-type: none;
+margin-left: -20px;
+
+}
+
+.ul3 li{
+    color: #969696;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-top: 20px;
+list-style-type: none;
+margin-left: -20px;
+}
+.foot{
+    height: 350px;
+    width: 100%;
+    background-color: #353330;
+    text-align: center;
+}
+.foot img{
+    margin-top:70px;
+
+}
+.foot p{
+    font-size: 15px;
+    opacity: 1;
+    visibility: visible;
+    color: #777777;
+    margin-top: 30px;
+}
+.ahmed{
+    background: rgba(0,0,0,0.6);
+    border: 2px solid rgba(255,255,255,0.8);
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    z-index: 9999;
+    opacity: .5;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
